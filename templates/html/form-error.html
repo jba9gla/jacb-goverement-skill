@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Error: Contact us - Your organisation</title>
+<link rel="stylesheet" href="govuk-style.css">
+</head>
+<body>
+<a href="#main" class="gs-skip">Skip to main content</a>
+
+<header class="gs-header" role="banner"><div class="gs-width"><a href="index.html" class="gs-org">Your organisation</a><nav class="gs-nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="content-page.html">About us</a></li><li><a href="list-page.html">Resources</a></li><li><a href="form-page.html">Contact</a></li></ul></nav></div></header>
+<div class="gs-phase"><div class="gs-width"><p style="margin:0"><span class="gs-tag">Beta</span> This is a new service. <a href="form-page.html">Tell us what you think</a> to help us improve it.</p></div></div>
+<div class="gs-width"><a href="index.html" class="gs-back">Back</a></div>
+<main id="main" class="gs-main"><div class="gs-width">
+<div class="gs-row"><div class="gs-two-thirds"><div class="gs-error-summary" role="alert" tabindex="-1" aria-labelledby="es-title"><h2 id="es-title">There is a problem</h2><ul><li><a href="#name">Enter your full name</a></li><li><a href="#email">Enter an email address in the correct format, like name@example.com</a></li></ul></div><form novalidate method="post" action="check-answers.html">
+<h1>Contact us</h1>
+<div class="gs-field gs-error"><label class="gs-label" for="name">Full name</label><span id="name-error" class="gs-error-msg"><span class="gs-sr">Error:</span> Enter your full name</span><input class="gs-input gs-w-30" id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error"></div><div class="gs-field gs-error"><label class="gs-label" for="email">Email address</label><span id="email-hint" class="gs-hint">We will only use this to reply to you.</span><span id="email-error" class="gs-error-msg"><span class="gs-sr">Error:</span> Enter an email address in the correct format, like name@example.com</span><input class="gs-input gs-w-30" id="email" name="email" type="email" autocomplete="email" aria-describedby="email-hint email-error"></div>
+<fieldset aria-describedby="topic-hint"><legend>What is your question about?</legend><span id="topic-hint" class="gs-hint">Select one option.</span>
+<div class="gs-choice gs-choice--radio"><input id="t1" name="topic" type="radio" value="general"><label for="t1">General enquiry</label></div>
+<div class="gs-choice gs-choice--radio"><input id="t2" name="topic" type="radio" value="support"><label for="t2">Support</label></div>
+<div class="gs-choice gs-choice--radio"><input id="t3" name="topic" type="radio" value="other"><label for="t3">Something else</label></div></fieldset>
+<fieldset aria-describedby="upd-hint"><legend>How can we contact you?</legend><span id="upd-hint" class="gs-hint">Select all that apply.</span>
+<div class="gs-choice gs-choice--check"><input id="c1" name="contact" type="checkbox" value="email"><label for="c1">Email</label></div>
+<div class="gs-choice gs-choice--check"><input id="c2" name="contact" type="checkbox" value="phone"><label for="c2">Phone</label></div></fieldset>
+<fieldset role="group" aria-describedby="dob-hint"><legend>When would you like a reply by?</legend><span id="dob-hint" class="gs-hint">For example, 27 3 2027</span>
+<div class="gs-date"><div><label class="gs-label" for="d">Day</label><input class="gs-input gs-w-10" id="d" name="d" inputmode="numeric" autocomplete="off"></div><div><label class="gs-label" for="m">Month</label><input class="gs-input gs-w-10" id="m" name="m" inputmode="numeric" autocomplete="off"></div><div><label class="gs-label" for="y">Year</label><input class="gs-input gs-w-20" id="y" name="y" inputmode="numeric" autocomplete="off"></div></div></fieldset>
+<div class="gs-field"><label class="gs-label" for="msg">Your message</label><span id="msg-hint" class="gs-hint">Do not include personal or financial information.</span><textarea class="gs-input" id="msg" name="msg" rows="5" aria-describedby="msg-hint"></textarea></div>
+<button type="submit" class="gs-btn">Continue</button></form></div></div>
+</div></main>
+<footer class="gs-footer" role="contentinfo"><div class="gs-width"><ul><li><a href="content-page.html">Accessibility statement</a></li><li><a href="content-page.html">Cookies</a></li><li><a href="content-page.html">Privacy</a></li><li><a href="form-page.html">Contact us</a></li></ul><p>&copy; Your organisation. Registered charity number 000000.</p></div></footer>
+</body>
+</html>

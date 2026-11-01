@@ -1,0 +1,15 @@
+title: Content page
+fields:
+  lead:
+    type: textarea
+    label: Lead paragraph
+    help: One or two short sentences saying what this page is for.
+    buttons: false
+    size: small
+  text:
+    type: writer
+    label: Page text
+    help: Use plain English. Short sentences. Headings in sentence case.
+    marks: [bold, italic, link, ul, ol]
+    nodes: [heading, bulletList, orderedList]
+    headings: [2, 3]   # h1 is the page title; the page cannot skip levels

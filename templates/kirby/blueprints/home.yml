@@ -1,0 +1,21 @@
+title: Home page
+fields:
+  lead:
+    type: textarea
+    label: Lead paragraph
+    buttons: false
+    size: small
+  startlabel:
+    type: text
+    label: Start button label
+    placeholder: Start now
+  startlink:
+    type: link
+    label: Start button link
+  cards:
+    type: structure
+    label: Cards
+    fields:
+      title: {type: text, required: true}
+      summary: {type: text, label: One-sentence summary, maxlength: 120}
+      link: {type: link, required: true}
